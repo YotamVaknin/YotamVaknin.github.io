@@ -1,0 +1,34 @@
+.text {
+    text-align : right;
+    direction : rtl;
+    font-size : 18px;
+    font-family : 'Tinos', Arial, times
+    /* font-family : 'Arimo', Arial, times */
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=David+Libre');
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,700');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+.text ul{
+  /* padding-right : 5px; */
+}
+.text li{
+  margin-bottom : 4px;
+  list-style-position: inside !important;
+}
+.text h1,h2,h3,h4,h5{
+    font-family : 'Tinos', Arial, times
+}
+.text blockquote{
+  font-size : 14px;
+}
+
+.english{
+  text-align : left;
+  direction : ltr;
+}
