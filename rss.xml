@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[האתר של יותם]]></title><description><![CDATA[האתר של יותם]]></description><link>https://yotamvaknin.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Apr 2019 22:04:34 GMT</lastBuildDate><item><title><![CDATA[מבוא לתורת השדות חלק ב׳]]></title><description><![CDATA[חלק שני - קוונטיזציה, קוונטיזציה שניה, קוונטיזציה n…]]></description><link>https://yotamvaknin.github.io//QFT-part-2/</link><guid isPermaLink="false">https://yotamvaknin.github.io//QFT-part-2/</guid><pubDate>Sun, 28 Apr 2019 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;חלק שני - קוונטיזציה, קוונטיזציה שניה, קוונטיזציה n-ית ושטויות אחרות&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[האתר של יותם]]></title><description><![CDATA[האתר של יותם]]></description><link>https://yotamvaknin.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 30 Apr 2019 00:14:37 GMT</lastBuildDate><item><title><![CDATA[מבוא לתורת השדות חלק ב׳]]></title><description><![CDATA[…]]></description><link>https://yotamvaknin.github.io//QFT-part-2/</link><guid isPermaLink="false">https://yotamvaknin.github.io//QFT-part-2/</guid><pubDate>Sun, 28 Apr 2019 21:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;חלק שני - קוונטיזציה&lt;/h2&gt;
 &lt;p&gt;קוונטיזציה היא תהליך של הפיכת תורה קלאסית לתורה קוונטית.&lt;/p&gt;
 &lt;p&gt;בחלק הבא, אני מתכוון לדבר על ״קוונטיזציה שניה״. ״קוונטיזציה שניה״ היא בכלל לא צורה של קוונטיזציה, ולטעמי ראוי היה לקרוא לה ״בחירה לא איומה של מרחב ההילברט שלך״. אבל היא נקראת ״קוונטיזציה שניה״. אז כדי שתאמינו לי שבאמת לא מדובר בתהליך של קוונטיזציה, אנחנו צריכים להבין ביחד מה תהליך של קוונטיזציה כן כולל.&lt;/p&gt;
-&lt;p&gt;נזכר לרגע במכניקה המילטונית קלאסית. מכניקה המילטונית (שגם עליה אכתוב ביום מן הימים) משתמשת בלגרניזאן כדי להגדיר את התנע $P$, ואת ההמילטוניאן $H$ ומספרת לנו שמשוואות התנועה של הגדלים האלה הן:&lt;/p&gt;
+&lt;p&gt;נזכר לרגע במכניקה המילטונית קלאסית. מכניקה המילטונית משתמשת בלגרניזאן כדי להגדיר את התנע $P$, ואת ההמילטוניאן $H$ ומספרת לנו שמשוואות התנועה של הגדלים האלה הן:&lt;/p&gt;
 &lt;p&gt;$$ \dot{Q} = \frac{\partial H}{\partial P} \\
 \dot{P} = -\frac{\partial H}{\partial Q}
 $$&lt;/p&gt;
@@ -9,8 +9,7 @@ $$&lt;/p&gt;
 &lt;p&gt;$$ \{ A,B \}_{P.B.}  = \frac{\partial A}{\partial Q} \frac{\partial B}{\partial P} - \frac{\partial A}{\partial P} \frac{\partial B}{\partial Q}$$&lt;/p&gt;
 &lt;p&gt;הגדרה שמרגישה מעט תמוה במבט ראשון, אבל אם מציבים כל פונקציה שתלויה במיקום $Q$ ובתנע $P$ בתוך סוגרי פואסון מקבלים:&lt;/p&gt;
 &lt;p&gt;$$
-\frac{d}{dt}F(Q,P) = \{F(Q,P), H\}_{P.B.}
-$$
+\frac{d}{dt}F\left(Q,P\right)=\frac{\partial F}{\partial Q}\dot{Q}+\frac{\partial F}{\partial P}\dot{P}=\left\{ F\left(Q,P\right),H\right\} _{P.B.} $$
 מקסים! לסוגרי פואסון יש כמה כללים אלגברים נוספים שהופכים אותם לכלי מאוד אלגנטי לחקור מערכות שיש להן המילטוניאן ותלויות בגדלים מורכבים. אני עוצר את עצמי ומשאיר את הפרטים לכתבה אחרת. הזהות היחידה שתהיה חשובה עבורנו היא הזהות הבאה:&lt;/p&gt;
 &lt;p&gt;$$ \{ Q, H\} _{P.B.} = \frac{\partial H}{\partial P} \{Q, P\} _{P.B.} \ \ \ (1) $$&lt;/p&gt;
 &lt;p&gt;שאותה כמעט טריוויאלי להוכיח מתוך ההגדרה. זהות דומה יש כמובן גם עבור התנע, והמשמעות שלה תהיה ברורה בקרוב.&lt;/p&gt;
